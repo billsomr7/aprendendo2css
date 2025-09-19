@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+div {
+    padding: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    /* Efeito Parallax */
+    background-attachment: fixed;
+}
+p {
+    margin-top: 30px;
+}
+.batman, .coringa, .lanterna {
+    color: white;
+}
+
+.batman {
+    background-image: url("./img/batman.jpg");
+    
+}
+.coringa {
+    background-image: url("./img/coringa.jpg");
+    
+}
+.lanterna {
+    background-image: url("./img/pool.jpg");
+    
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    animation: trocar-cor .1s infinite alternate;
+}
+
+@keyframes trocar-cor {
+    0% {
+        opacity: 0;
+    }
+}
+
+img {
+    width: 500px;
+    animation: flutuar 2s infinite linear alternate;
+}
+
+@keyframes flutuar {
+0%{
+transform: translateX(80px) rotate(100deg);
+}
+
+25%{
+transform: translateY(80px) rotate(-180deg);
+}
+
+50%{
+transform: translateX(-800px) rotate(-100deg);
+}
+
+75%{
+transform: translateY(-80px) rotate(180deg);
+}
+
+100%{
+transform: translateX(80px);
+}
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
